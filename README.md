@@ -1,12 +1,73 @@
-# React + Vite
+🌤 Weather Dashboard App
+📌 Overview
+The Weather Dashboard App is a web application that provides real-time weather updates for any city worldwide. Users can search for a location to view current weather conditions, a 5-day forecast, and additional weather details like temperature, humidity, wind speed, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🌍 Search for any city to get real-time weather data.
 
-Currently, two official plugins are available:
+⛅ Current weather conditions including temperature, humidity, and wind speed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📅 5-day forecast with daily temperature and weather icons.
 
-## Expanding the ESLint configuration
+💾 Search history to quickly revisit previous locations.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 User-friendly UI with dynamic icons and backgrounds.
+
+🛠 Tech Stack
+Frontend: HTML, CSS, React.Js, TailWind CSS
+
+API: OpenWeatherMap API
+
+Libraries: Axios (for API requests)
+
+Deployment: Hosted on GitHub Pages / Vercel
+
+🔧 Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/weather-dashboard.git
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd weather-dashboard
+Open index.html in a browser or use Live Server in VS Code.
+
+🖥️ Usage
+Enter a city name in the search bar.
+
+Click the Search button.
+
+View the current weather and upcoming forecast.
+
+Click on a past search to reload its weather data.
+
+🔑 API Key Setup
+Create an account at OpenWeatherMap.
+
+Get your free API key.
+
+Add the API key to the script.js file:
+
+javascript
+Copy
+Edit
+const apiKey = "YOUR_API_KEY";
+📷 Screenshots
+(Add screenshots of the app here)
+
+🏗 Future Enhancements
+🌙 Dark mode support
+
+🌎 Geolocation-based weather updates
+
+📊 More detailed weather insights
+
+🤝 Contributing
+Feel free to fork the repo and submit pull requests!
+
+
