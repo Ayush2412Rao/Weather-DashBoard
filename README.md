@@ -57,8 +57,9 @@ javascript
 Copy
 Edit
 const apiKey = "YOUR_API_KEY";
-📷 Screenshots
-(Add screenshots of the app here)
+
+![weather](https://github.com/user-attachments/assets/f9d87f19-b575-4f67-b647-0851a227a7a4)
+
 
 🏗 Future Enhancements
 🌙 Dark mode support
